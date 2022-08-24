@@ -1,6 +1,6 @@
 # Fortran4duck
 
-![Logo](https://github.com/luizpbraga/fortran4duck/blob/main/codigos/fortran4duck.jpg)
+![](https://github.com/luizpbraga/fortran4duck/blob/main/codigos/fortran4duck.jpg)
 
 ### Sobre o canal
 
