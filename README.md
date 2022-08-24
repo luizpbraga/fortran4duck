@@ -11,4 +11,4 @@ NÃO gosta de ler? Ótimo, assista ao meus [vídeos](https://www.youtube.com/cha
 
 Se você é moderninho(a), pode me seguir no intagram [@fortran4duck](https://www.intagram/fortran4duck).
 
-Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra deixar sua dúvida/crítica/dinheiro/reza/colaboracao. 
+Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra deixar sua dúvida/crítica/dinheiro/reza/colaboração.
