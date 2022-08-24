@@ -7,7 +7,7 @@
 Bom, por que $Fortran4duck$? Eu achei que $Fortran4fuc*$ seriá melhor, porém arriscado. 
 Nos vídeos, temos exemplos bobos e nada poéticos. Sim, você vai querer assistir (em 2x)!!!
 
-```Panela velha é que faz comida boa - Usuários de Fortran.
+>"Panela velha é que faz comida boa" - Usuários de Fortran.
 
 ### Neste repositório...
 Aqui você encontra ~~alguns~~ códigos feitos durante a realização dos vídeos do canal `fortran4duck`.
