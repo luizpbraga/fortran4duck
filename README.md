@@ -90,7 +90,8 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
 PS: Provavelmente vai ter mais coisa.
 
 ### ZIG-riguidum
-Eu pretendo começar uma [playlist](https://www.youtube.com/playlist?list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN) sobre a linguagem [Zig](https://ziglang.org/). Eu deveria aprender python e SQL, porém zig me
+![](https://github.com/luizpbraga/fortran4duck/blob/main/zigriguidum/zigriguidum.png)
+Eu pretendo começar uma [playlist](https://www.youtube.com/playlist?list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN) sobre a linguagem [Zig](https://ziglang.org/) (sorry Andrew, love ya!). Eu deveria aprender python e SQL, porém zig me
 deixou muito curioso. 
 
 No momento, eu estou estudando o repositório [Ziglings](https://github.com/ratfactor/ziglings). Recomendo pra caralh*!
