@@ -80,7 +80,7 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
 * [ ] [Arquivos: File I/O]().
 * [ ] [Generic Binding]().
 * [ ] [Overriding Type Bound Procedures]().
-* [ ] [Generic Interfaces and Deferred Binding]().
+* [ ] [Abstract Types and Deferred Binding]().
 * [ ] [IEEE Floating Points]().
 * [ ] [C-BINDING]().
 * [ ] [Parallel Programming: Coarrays]().
