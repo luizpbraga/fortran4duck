@@ -102,4 +102,4 @@ No meu canal, você vai encontrar os seguintes vídeo sobre Zig:
  * [A função Split](https://www.youtube.com/watch?v=9xMsJYThtv8&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=2&ab_channel=Fortran4duck).
  * [Executando um comando Shell](https://www.youtube.com/watch?v=maFUpUtpTYs&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=3&ab_channel=Fortran4duck).
 
-Nesses vídeo eu não me atrevo a abrir a boca, então você pode curtir o som da natureza que me rodeia, $e.g.$ buzinas, serra eletrica, crianças chorando e o TEK-TEK do meu teclado.
+Nesses vídeo eu não me atrevo a abrir a boca, então você pode curtir o som da natureza que me rodeia, e.g. buzinas, serra eletrica, crianças chorando e o TEK-TEK do meu teclado.
