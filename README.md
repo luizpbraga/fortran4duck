@@ -73,18 +73,17 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
 
 * [x] [Kind e precisão](https://www.youtube.com/watch?v=-Zzn8Yw6PBU&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=27&ab_channel=Fortran4duck).
 
-* [ ] [Dynamic Memory Management]()
-* [ ] [Pointers]()
-* [ ] [Arquivos: File I/O]()
-* [ ] [IEEE Floating Points]()
-* [ ] [C-BINDING]()
-* [ ] [Generic Binding]()
-* [ ] [Overriding Type Bound Procedures]()
-* [ ] [Generic Interfaces and Deferred Binding]()
-* [ ] [Generic Binding]()
-* [ ] [Parallel Programming: Coarrays]()
+* [ ] [Dynamic Memory Management]().
+* [ ] [Pointers]().
+* [ ] [Arquivos: File I/O]().
+* [ ] [Generic Binding]().
+* [ ] [Overriding Type Bound Procedures]().
+* [ ] [Generic Interfaces and Deferred Binding]().
+* [ ] [IEEE Floating Points]().
+* [ ] [C-BINDING]().
+* [ ] [Parallel Programming: Coarrays]().
 * [ ] [Parallel Programming: OMP]()
-* [ ] [Parallel Programming: OMP]()
+* [ ] [Parallel Programming: OMP]().
 
 PS: Provavelmente vai ter mais coisa.
 
