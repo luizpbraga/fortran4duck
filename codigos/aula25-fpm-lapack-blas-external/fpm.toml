@@ -1,0 +1,28 @@
+
+
+name = "aula25"
+version = "0.1.0"
+license = "license"
+author = "Luiz Braga"
+maintainer = "portilho.braga@gmail.com"
+copyright = "Copyright 2022, Jane Doe"
+
+[library]
+source-dir="mymod"
+
+[[ executable ]]
+name="aula25app"
+source-dir="myapp"
+main="aula25.f90"
+
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+link = ["blas", "lapack"]
+
+[install]
+library = false
+
+[dependencies]
+stdlib = { git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm" }
