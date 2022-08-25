@@ -20,7 +20,11 @@ do diretório __fortran4book/__.
 ```bash
   $ mdbook serve 
 ```
+<<<<<<< HEAD
 
 Se tudo ocorrer certo, o livro deve estar disponível no seu navegado. 
 
 
+=======
+dentro do diretório "fortran4book". O livro deve estar disponível no seu navegado.
+>>>>>>> main
