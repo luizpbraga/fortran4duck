@@ -11,7 +11,7 @@ Nos vídeos, temos exemplos bobos e nada poéticos. Sim, você vai querer assist
 
 ### Neste repositório...
 Aqui você encontra ~~alguns~~ códigos feitos durante a realização dos vídeos do canal $Fortran4duck$. Eles ainda 
-não estam organizados/comentados, mas eu pretendo deixar tudo em ondem no futuro.
+não estão organizados/comentados, mas eu pretendo deixar tudo em ondem no futuro.
 
 NÃO gosta de ler? Ótimo, assista ao meus [vídeos](https://www.youtube.com/channel/UC-GMqNv9hOigim0wiQrhvqg). É de graça!
 
@@ -87,7 +87,7 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
 * [ ] [Parallel Programming: OMP]()
 * [ ] [Parallel Programming: MPI]().
 
-PS: Provavelmente vai ter mais coisa.
+PS: Provavelmente vai ter mais coisa. Alias, eu estou organizando um livrinho no estilo "Rust Book", mas sobre Fortran óbvio. 
 
 ## ZIG-riguidum ⚡️⚡️⚡️
 ![](https://github.com/luizpbraga/fortran4duck/blob/main/zigriguidum/zigriguidum.png)
@@ -102,4 +102,4 @@ No meu canal, você vai encontrar os seguintes vídeo sobre Zig:
  * [A função Split](https://www.youtube.com/watch?v=9xMsJYThtv8&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=2&ab_channel=Fortran4duck).
  * [Executando um comando Shell](https://www.youtube.com/watch?v=maFUpUtpTYs&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=3&ab_channel=Fortran4duck).
 
-Nesses vídeo eu não me atrevo a abrir a boca, então você pode curtir o som da natureza que me rodeia, e.g. buzinas, serra eletrica, crianças chorando e o TEK-TEK do meu teclado.
+Nesses vídeo eu não me atrevo a abrir a boca, então você pode curtir o som da natureza que me rodeia, e.g. buzinas, serra elétrica, crianças chorando e o TEK-TEK do meu teclado.
