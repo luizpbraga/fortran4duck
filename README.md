@@ -10,7 +10,7 @@ Nos vídeos, temos exemplos bobos e nada poéticos. Sim, você vai querer assist
 >"Panela velha é que faz comida boa" - Usuários de Fortran.
 
 ### Neste repositório...
-Aqui você encontra ~~alguns~~ códigos feitos durante a realização dos vídeos do canal `fortran4duck`. Eles ainda 
+Aqui você encontra ~~alguns~~ códigos feitos durante a realização dos vídeos do canal $Fortran4duck$. Eles ainda 
 não estam organizados/comentados, mas eu pretendo deixar tudo em ondem no futuro.
 
 NÃO gosta de ler? Ótimo, assista ao meus [vídeos](https://www.youtube.com/channel/UC-GMqNv9hOigim0wiQrhvqg). É de graça!
