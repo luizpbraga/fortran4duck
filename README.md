@@ -94,7 +94,7 @@ PS: Provavelmente vai ter mais coisa.
 Pretendo começar uma [playlist](https://www.youtube.com/playlist?list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN) sobre a linguagem [Zig](https://ziglang.org/) (sorry Andrew, love ya!). Eu deveria aprender Python (bleh) e SQL, porém Zig me
 deixou muito hypado. 
 
-No momento, estou estudando o repositório [Ziglings](https://github.com/ratfactor/ziglings). Recomendo pra caralh*!
+No momento, estou estudando o repositório [Ziglings](https://github.com/ratfactor/ziglings). Recomendo!
 
 No meu canal, você vai encontrar os seguintes vídeo sobre Zig:
 
