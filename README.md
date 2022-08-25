@@ -87,7 +87,7 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
 * [ ] [Parallel Programming: OMP]()
 * [ ] [Parallel Programming: MPI]().
 
-PS: Provavelmente vai ter mais coisa. Alias, eu estou organizando um livrinho no estilo "Rust Book", mas sobre Fortran óbvio. 
+PS: Provavelmente vai ter mais coisa. Aliás, eu estou organizando um livrinho no estilo "Rust Book", mas sobre Fortran óbvio. 
 
 ## ZIG-riguidum ⚡️⚡️⚡️
 ![](https://github.com/luizpbraga/fortran4duck/blob/main/zigriguidum/zigriguidum.png)
