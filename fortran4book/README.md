@@ -10,5 +10,5 @@ Com o `mdbook` instalado, rode
 ``` 
   mdbook serve 
 ```
-dentro do diretório "fortran4book".
+dentro do diretório "fortran4book". O livro deve estar disponível no seu navegado. 
 
