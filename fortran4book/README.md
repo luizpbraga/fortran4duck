@@ -11,4 +11,3 @@ Com o `mdbook` instalado, rode
   mdbook serve 
 ```
 dentro do diretório "fortran4book".
-
