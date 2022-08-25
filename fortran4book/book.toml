@@ -1,0 +1,6 @@
+[book]
+authors = ["luizpbraga"]
+language = "en"
+multilingual = false
+src = "src"
+title = "The Fortran Programming Language"
