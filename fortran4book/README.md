@@ -10,9 +10,4 @@ Com o `mdbook` instalado, rode
 ```bash
   mdbook serve 
 ```
-<<<<<<< HEAD
-dentro do diretório "fortran4book".
-=======
-dentro do diretório "fortran4book". O livro deve estar disponível no seu navegado. 
-
->>>>>>> main
+dentro do diretório "fortran4book". O livro deve estar disponível no seu navegado.
