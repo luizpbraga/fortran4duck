@@ -1,4 +1,4 @@
-# Fortran4duck
+# Fortran4duck 🦆🇧🇷
 
 ![](https://github.com/luizpbraga/fortran4duck/blob/main/modernfortran/fortran4duck.jpg)
 
@@ -89,12 +89,12 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
 
 PS: Provavelmente vai ter mais coisa.
 
-## ZIG-riguidum
+## ZIG-riguidum ⚡️⚡️⚡️
 ![](https://github.com/luizpbraga/fortran4duck/blob/main/zigriguidum/zigriguidum.png)
-Eu pretendo começar uma [playlist](https://www.youtube.com/playlist?list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN) sobre a linguagem [Zig](https://ziglang.org/) (sorry Andrew, love ya!). Eu deveria aprender python e SQL, porém zig me
+Pretendo começar uma [playlist](https://www.youtube.com/playlist?list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN) sobre a linguagem [Zig](https://ziglang.org/) (sorry Andrew, love ya!). Eu deveria aprender Python (bleh) e SQL, porém Zig me
 deixou muito hypado. 
 
-No momento, eu estou estudando o repositório [Ziglings](https://github.com/ratfactor/ziglings). Recomendo pra caralh*!
+No momento, estou estudando o repositório [Ziglings](https://github.com/ratfactor/ziglings). Recomendo pra caralh*!
 
 No meu canal, você vai encontrar os seguintes vídeo sobre Zig:
 
