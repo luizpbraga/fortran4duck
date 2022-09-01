@@ -75,7 +75,7 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
 
 * [x] [Kind e precisão](https://www.youtube.com/watch?v=-Zzn8Yw6PBU&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=27&ab_channel=Fortran4duck).
 
-* [ ] [Dynamic Memory Management]().
+* [X] [Dynamic Memory Management](https://www.youtube.com/watch?v=pJlgJaKbcaI&t=109s).
 * [ ] [Pointers]().
 * [ ] [Arquivos: File I/O]().
 * [ ] [Generic Binding]().
@@ -101,5 +101,7 @@ No meu canal, você vai encontrar os seguintes vídeo sobre Zig:
  * [Abrindo um Arquivo](https://www.youtube.com/watch?v=7vThgi3I-PA&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&ab_channel=Fortran4duck).
  * [A função Split](https://www.youtube.com/watch?v=9xMsJYThtv8&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=2&ab_channel=Fortran4duck).
  * [Executando um comando Shell](https://www.youtube.com/watch?v=maFUpUtpTYs&list=PLMeH-L7tg--DutJTYrSBayTdPOY279bhN&index=3&ab_channel=Fortran4duck).
+
+Códigos disponiveis em [Zigriguidum](https://github.com/luizpbraga/zzigriguidum)
 
 Nesses vídeo eu não me atrevo a abrir a boca, então você pode curtir o som da natureza que me rodeia, e.g. buzinas, serra elétrica, crianças chorando e o TEK-TEK do meu teclado.
