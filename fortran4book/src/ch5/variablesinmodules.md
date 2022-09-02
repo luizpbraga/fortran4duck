@@ -1,1 +1,0 @@
-# Privet, public and protected

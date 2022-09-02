@@ -55,6 +55,7 @@ program main
   end block l1
 
   contains 
+    
   subroutine ranksub(myarray, any)
 
     class(*), intent(in):: any 

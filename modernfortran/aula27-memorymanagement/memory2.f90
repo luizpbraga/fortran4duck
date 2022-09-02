@@ -2,7 +2,7 @@
 program main 
   implicit none
 
-  type:: mytype
+  type mytype
     integer:: a 
     real   :: b 
     character(len = 3), allocatable:: e(:)
@@ -23,15 +23,15 @@ program main
   vxa(1, 2) = t(2, 2.0)
   deallocate(xa, ra1, ra2, vxa)
   ! Eu preciso alocar explicitamente nesse caso
-  allocate(c(2))
+  !allocate(c(2))
   ! pois tenho campos alocaveis 
-  allocate(c(1)%e(3), c(2)%e(3))
+  !allocate(c(1)%e(3), c(2)%e(3))
 
   c = [ mytype(1, 1.0, [character(3) :: '1a', '1b', '1c']), &
         mytype(2, 2.0, [character(3) :: '2a', '2b', '2c']) ]
-  deallocate(c)
-
-  print *, ""
+  !deallocate(c)
+ 
+  print *, c(1)%e
 contains 
 end 
 
