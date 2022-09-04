@@ -14,4 +14,10 @@ program main
   do i = 1, 100
     write(20, "(i3, i5)") i, 10*i
   end do 
+
+  !NEW
+  print *, 1, -1
+  ! formatar o '+': sp 
+  ! retornar a formatar sem o '+': ss 
+  print "(sp, i2,1x,i2, ss, i2, 1x, i2)", 1, -1, 1, -1
 end 

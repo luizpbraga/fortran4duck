@@ -1,6 +1,6 @@
 program format
   implicit none 
-  ! formatcao de Escalares
+  ! formatacao de Escalares
   ! i, a, f, d, e, es, g, l, x, /, 
   integer     :: i = 1, j = 100, k = -1
   real        :: x = 1.0, y = 3.14, z = -666.666
