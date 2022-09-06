@@ -3,7 +3,7 @@
 ---
 ### Sobre o canal
 - Por que uma playlist de $Fortran$?
-  - `FORTRAN IS ALIVE`! Legacy Code é um saco e nós, simpatizantes com a linguagem, temos o dever de renovar/modernizar nosso códigos. Meu objetivo aqui é construir um mundo SEM `GOTO`.
+  - `Fortran IS ALIVE`! Legacy Code é um saco e nós, simpatizantes com a linguagem, temos o dever de renovar/modernizar nosso códigos. Meu objetivo aqui é construir um mundo SEM `GOTO`.
 - Por que **Fortran4duck**? 
   - Eu achei que $Fortran4fuc*$ seria melhor, porém arriscado. 
 - O que esperar dos vídeos?
@@ -86,8 +86,8 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
   * [ ] Input/output genérico 
 
 - **FPM: Fortran Package Manager** 
-  * [x] Introdução ao FPM (+ STDLIB e Fortls) ([link](https://www.youtube.com/watch?v=GaqAwsG7fDI&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=23&ab_channel=Fortran4duck))
-  * [x] Configurando seu Pacote e lincando com LAPACK/BLAS ([link](https://www.youtube.com/watch?v=nUZNH2X_Hn8&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=26&ab_channel=Fortran4duck))
+  * [x] Introdução ao FPM (+ STDLIB e Fortls) ([Link](https://www.youtube.com/watch?v=GaqAwsG7fDI&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=23&ab_channel=Fortran4duck))
+  * [x] Configurando seu Pacote e lincando com LAPACK/BLAS ([Link](https://www.youtube.com/watch?v=nUZNH2X_Hn8&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=26&ab_channel=Fortran4duck))
   * [ ] Explorando a STDLIB 
 
 - **Pointers**  
