@@ -30,7 +30,7 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
 ### Conteúdos:
 
 - **Base**:
-  * [x] gfortran e "Olá mundo!!!" ([Link](https://www.youtube.com/watch?v=GptmpggikpU&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&ab_channel=Fortran4duck))
+  * [x] Instalando o compilador gfortran e criando o primeiro programa ([Link](https://www.youtube.com/watch?v=GptmpggikpU&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&ab_channel=Fortran4duck))
   * [x]  Declaração de variáveis escalares ([Link](https://www.youtube.com/watch?v=dBWBQehHnMs&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=2&ab_channel=Fortran4duck)).
   * [x] Implicit None ([Link](https://www.youtube.com/watch?v=Cf3tJ6Kuad4&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=14&ab_channel=Fortran4duck))
   * [x] `Kind` e precisão ([Link](https://www.youtube.com/watch?v=-Zzn8Yw6PBU&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=27&ab_channel=Fortran4duck))
@@ -107,6 +107,9 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
   - [ ] Error Handling $Sucks$ 
   - [ ] Generics $Sucks$. Não tem ENUM?
 
+** Intel **
+  - [X] Instalando o ifort, MKL e MPI via Intel HPC Toolkit
+
 - **C vs Fortran** 
   * [ ] C-binding 
 
@@ -114,5 +117,3 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
   * [ ] Coarrays
   * [ ] OMP
   * [ ] MPI
-
-
