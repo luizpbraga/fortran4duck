@@ -107,8 +107,8 @@ Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra 
   - [ ] Error Handling $Sucks$ 
   - [ ] Generics $Sucks$. Não tem ENUM?
 
-** Intel **
-  - [X] Instalando o ifort, MKL e MPI via Intel HPC Toolkit
+- **Intel**
+  * [X] Instalando o ifort, MKL e MPI via Intel HPC Toolkit
 
 - **C vs Fortran** 
   * [ ] C-binding 
