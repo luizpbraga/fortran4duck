@@ -3,7 +3,7 @@
 ---
 ### Sobre o canal
 - Por que uma playlist de $Fortran$?
-  - `Fortran IS ALIVE`! Legacy Code é um saco e nós, simpatizantes com a linguagem, temos o dever de renovar/modernizar nosso códigos. Meu objetivo aqui é construir um mundo SEM `GOTO`.
+  - `Fortran IS ALIVE`! Legacy Code é um saco e nós, simpatizantes com a linguagem, temos o dever de renovar/modernizar nossos códigos. Meu objetivo aqui é construir um mundo SEM `GOTO`.
 - Por que **Fortran4duck**? 
   - Eu achei que $Fortran4fuc*$ seria melhor, porém arriscado. 
 - O que esperar dos vídeos?
@@ -14,7 +14,7 @@
 Aqui você encontra ~~alguns~~ códigos feitos durante a realização dos vídeos do canal $Fortran4duck$. Eles ainda 
 não estão organizados/comentados, mas eu pretendo deixar tudo em ondem no futuro.
 
-NÃO gosta de ler? Ótimo, assista ao meus [vídeos](https://www.youtube.com/channel/UC-GMqNv9hOigim0wiQrhvqg). É de graça!
+NÃO gosta de ler? Ótimo, assista aos meus [vídeos](https://www.youtube.com/channel/UC-GMqNv9hOigim0wiQrhvqg). É de graça!
 
 Se você é moderninho(a), pode me seguir no intagram [@fortran4duck](https://www.instagram.com/fortran4duck/). Temos fotinhos de 
 códigos bonitos lá...
