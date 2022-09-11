@@ -25,7 +25,7 @@ códigos bonitos lá...
   $ cd fortran4duck/modernfortran
 ~~~
 
-Contribuições são bem vindas! Use os comentários do Youtube ou o Github pra deixar sua dúvida/crítica/dinheiro/reza/colaboração.
+Contribuições são bem-vindas! Use os comentários do Youtube ou o Github pra deixar sua dúvida/crítica/dinheiro/reza/colaboração.
 
 ### Conteúdos:
 
