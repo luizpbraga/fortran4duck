@@ -1,42 +1,85 @@
-!>
+
+!#define String character(:),allocatable
+
 program main 
+
+  use iso_fortran_env, only: stderr => error_unit
+
   implicit none
 
-  integer       :: i, u, num, idade, jogos, io
-  character(20) :: nome, posi, clube, cidade
+  character(15) :: f_file, f_status, f_action, f_access, f_form, f_statusclose, f_iomsg*50
+
+  integer :: f_unit, f_iostat !, f_newunit
+
+  logical :: f_exist
+  integer :: f_size
+
+  f_unit   = 10;
+  f_file   = 'test.txt'
+
+
+  f_status = &
+    'replace'
+  !'new'     ! O arquivo nao deve existir
+  !'old'     ! O arquivo já existe 
+  !'sratch'  ! deleta => open(status=elete') + nao precisa do `FILE`
+  !'unknown' ! ?  
+
+  f_action = &
+    'readwrite' ! dá pra usar read/write
+  !'read'     ! dá pra usar o read 
+  !'write'    ! dá pra usar o write 
+
+  f_access = &
+    'sequential' 
+  !"direct"
+  !"stream" ! 
+
+  f_form = &
+    'formatted'    ! pro sequential 
+  ! "unformatted"  ! pro direct, stream
+
+  f_statusclose = & 
+    'keep' 
+  !"delete"
+
   
-  type player
-    sequence
-    character(20) ::  nome, posi
-    integer       ::  idade, jogos
-    character(20) ::  clube, cidade
-  endtype
+  ! Dá pra usar antes ou depois de abrir!
+  inquire(           &
+    !unit = f_unit, & !ou
+    file  = f_file,  &
+    size  = f_size,  &
+    exist = f_exist  & 
+  )
 
-  type(player), allocatable :: players(:)
+  print *, f_file, f_exist, f_size
 
+  if (f_exist) then 
 
-  allocate(player :: players(27))
-  
-  ! print *, size(players)
-  ! read *, players(1)
-  ! print *, players(1)
+    open(                 &
+      unit   = f_unit,    & 
+      !newunit = fnewunit,&
+      file   = f_file,    &
+      iostat = f_iostat,  &
+      iomsg  = f_iomsg,   &
+      status = f_status,  &
+      action = f_action,  & 
+      access = f_access,  &
+      form   = f_form     &
+    )                     
 
-  open(newunit = u, file = './selecao.csv')
-    read(u,*, iostat = io) ! pular o título
-    do 
-      !read(u,*, iostat = io) num, nome, posi, idade, jogos, cidade, clube
-      read(u,*, iostat = io) num, players(num)
-      if (io /= 0 ) exit
-      !print *, num, nome, posi, idade, jogos, cidade, clube 
-      print *, num, players(num) 
-    end do 
-  close(u)
-  
-  ! players name 
-  !print '(*(a,1x))', (players(i)%nome, i=1, size(players)) 
-  !print *, players(1:)%nome
-  print *, players%nome
+    if (f_iostat /= 0) write(stderr, *) "error: " // f_iomsg
+    
+    write(f_unit, *) "ola"
 
-  contains 
-end 
+    close(                   &
+      unit   = f_unit,       &
+      status = f_statusclose &
+    )
 
+  call execute_command_line("cat " // f_file)
+  else 
+    print *, "Arquivo não encontrado."
+  end if 
+
+end program  
