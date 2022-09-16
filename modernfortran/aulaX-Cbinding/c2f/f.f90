@@ -54,21 +54,50 @@ program main
     !   integer(c_int), value :: d1,d2 
     ! end subroutine 
 
+  
+ 
+  
 
-  end interface 
+    subroutine c_ppint(p) bind(c, name = "ppint") 
+      use iso_c_binding
+      type(c_ptr), intent(inout) :: p ! sem intent(inout) né
+      !type(c_ptr) :: p ! 
+    end 
+
+ subroutine c_arrtest(d1, d2, arr) bind(c, name = "arrtest") 
+      use iso_c_binding
+      integer(c_int), value :: d1,d2
+      type(c_ptr), intent(inout) :: arr ! int[] a
+    end subroutine 
+
+  subroutine c_arrtest2(d1, d2, arr) bind(c, name = "arrtest2") 
+      use iso_c_binding
+      integer(c_int), value :: d1,d2
+      type(c_ptr), intent(inout) :: arr ! int[] a
+    end subroutine 
+
+ end interface 
 
   integer(c_int) :: a = 1, b = 3, v(10)
   integer(c_int), target :: vt(10)
   
+  
   integer(c_int), target :: arrnm(2,2)
   integer(c_int) :: arr234(2,3,4)
-   
-
-  print *, a, b, c_add(a,b)
   
+
+  ! ** int 
+  integer(c_int), target :: t = 10, tv(2,2) ! precisa do target 
+  type(c_ptr) :: t_loc, tv_loc;
+
+  ! int 
+  print *, a, b, c_add(a,b)
+ 
+  ! int *
   call c_swap(a,b) 
   print *, a, b, c_add(a, b)
 
+  ! *int ou int[]
   call c_init(v, size(v))
   print "(*(i0,1x),:)", v
 
@@ -79,10 +108,23 @@ program main
   print "(*(i0,1x),:)", vt
 
   ! JESUS AMADO 
+  ! int [][][]
   call c_arr_234(arr234, 4, 3, 2)
   print "(*(i0,1x),:)", arr234
 
+  ! **int  
+  ! call c_ppint(c_loc(t))
+  ! print *, t
+  t_loc = c_loc(t)
+  call c_ppint(t_loc) ! da pre redefinir com intent(inout)
+  print *, t
 
+  tv_loc = c_loc(tv(1,1))
+  call c_arrtest(2, 2, tv_loc) ! da pre redefinir com intent(inout)
+  print *, tv
+  tv_loc = c_loc(tv(1,1))
+  call c_arrtest2(2, 2, tv_loc) ! da pre redefinir com intent(inout)
+  print *, tv
 
 contains 
 end 
