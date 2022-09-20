@@ -7,8 +7,8 @@ module mod
     real:: charge 
     real:: r(3)
     contains 
-    procedure(fild), deferred:: E
-    !procedure(fild):: B
+    procedure(field), deferred:: E
+    !procedure(field):: B
   endtype 
 
   type, extends(particle):: elec
@@ -17,7 +17,7 @@ module mod
   endtype 
 
   abstract interface 
-    pure function fild(q, r0)  result(F)
+    pure function field(q, r0)  result(F)
     import particle 
     class(particle), intent(in):: q
     real, intent(in):: r0(3)

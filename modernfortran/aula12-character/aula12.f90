@@ -9,15 +9,19 @@ program main
   character(len = 5, kind = char_kind), dimension(3):: vec_char 
   
   ! STRING PROCS  
+  
   duckpython = "  FORTRAN IS TOP   "
   
   vec_char = [character(5) :: "12" // "3" // "45", "pa", trim("LOL  ")]
   
   print *, adjustl(trim(duckpython)), len_trim(duckpython), vec_char
+  
   ! READ A FILE 
+  
   open(unit = 10, file = "poema.txt", access = "stream")
     read(10) poema
   close(10)
+
   ! SUBSTRINGS 
   
   print *, poema, poema(12:51), poema(10:)

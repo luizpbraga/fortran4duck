@@ -8,7 +8,7 @@ program main
   endtype 
 
   type, extends(Animal):: Mamifero
-  logical:: gostadeleite
+    logical:: gostadeleite
   endtype
 
   contains 

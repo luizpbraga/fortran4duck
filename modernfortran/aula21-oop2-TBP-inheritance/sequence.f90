@@ -3,7 +3,7 @@ module mod
   public:: a
 
   type bx; 
-  sequence
+    sequence
   endtype 
 
   type a
