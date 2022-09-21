@@ -29,11 +29,7 @@ program main
   use mod 
   implicit none
   
-  type(dog) :: dog1; 
-
-  dog1%name = "pipoca"
-  dog1%sound = "Au, au!"
-  dog1%age = 1
+  type(dog) :: dog1 = dog("Pipoca", "Au, au!", 1)
 
   call dog1%info
 contains 
