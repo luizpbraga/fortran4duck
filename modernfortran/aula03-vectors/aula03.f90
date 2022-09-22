@@ -8,8 +8,8 @@ program main
   ! com uma pequena defirença ...
   integer :: v(10)
   integer :: vi(3) = 1
-  !               |
-  !               +--> Pequena diferença;
+  !             ⇧ 
+  !             + ⇨ Pequena diferença;
   ! Aqui foi declarado um vetor inteiro de 3 dimensões: vi = [1,1,1]
   ! e outro de 10: v = [?,?,?,?,?,?,?,?,?,?]
   ! Note que Fortran vetoriza as expressões pra você
@@ -45,8 +45,8 @@ program main
   ! Vamos mudar os elementos 8,9 e 10 de uma única vez para 
   ! -1, -2, -3, respectivamente:
   v([8,9,10]) = [-1,-2,-3]
-  ! |
-  ! +--> ATENçÃO!!! v([...])
+  ! ⇧  
+  ! + ⇨ ATENçÃO!!! v([...])
   print *, v
   ! vamos usar 'vi' para modificar 'v'
   v = [vi, v(4:)]

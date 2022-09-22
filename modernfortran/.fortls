@@ -29,5 +29,5 @@
    "pp_defs": {},
    "symbol_skip_mem": false,
 
-   "enable_code_actions": false
+   "enable_code_actions": true
 }

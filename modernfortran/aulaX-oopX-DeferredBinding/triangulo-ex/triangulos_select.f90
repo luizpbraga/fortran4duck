@@ -8,7 +8,7 @@ module m_triangulo
   
   type :: triangulo 
   contains 
-    procedure :: area ! 'area' é a mesma pros herdeiros da classe
+    procedure, non_overridable :: area ! 'area' é a mesma pros herdeiros da classe
   endtype 
 
   type, extends(triangulo) :: triangulo_retangulo

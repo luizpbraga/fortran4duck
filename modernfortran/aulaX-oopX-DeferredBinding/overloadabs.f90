@@ -1,5 +1,5 @@
 module mod
-  implicit none 
+    implicit none 
   type:: T
   integer:: i 
   contains 
