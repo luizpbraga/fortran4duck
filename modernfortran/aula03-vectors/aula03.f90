@@ -2,24 +2,24 @@
 program main 
 
   implicit none
-  
+
   integer i
-  ! A declaraçao é identica a uma variável 
-  ! escalar, mas com um pequeno detalhe ...
+  ! A declaração é idêntica a decuma variável escalar, mas com um pequeno detalhe ...
   integer :: v(10)
   integer :: vi(3) = 1
-!               |
-!               +--> Pequeno detalhe
+  !               |
+  !               +--> Pequeno detalhe
   ! Aqui foi declarado um vetor inteiro de 3 dimensões: vi = [1,1,1]
   ! e outro de 10: v = [?,?,?,?,?,?,?,?,?,?]
-  ! Note que Fortran vetoriza as expresões pra você
+  ! Note que Fortran vetoriza as expressões pra você
   print *, vi 
-  
+
   ! Usando a função `size` podemos determinar o tamanho de um vetor:
   print *, "size:", size(vi) 
   ! Vamos mudar o valor do último elemento pra 99 
   vi = [1, 1, 99] 
   ! Essa é a notação para declarar elemento por elemento; 
+  v = [0,0,1,0,0,0,1,0,9,10]
 
   ! Podemos usar a sequinte notação para mudar o valor 
   ! da primeira componete pra -69
@@ -32,15 +32,15 @@ program main
   ! E agora usando a notação de subarrays:
   print *, vi(1:3) 
   print *, vi(3:1:-1)
-  
-  ! Vamos inicialiar o vetor 'v' usando a notação de range:
-  v = [(i,i=1,10)] ! nao esqueça de declarar 'i'
+
+  ! Vamos re-inicializar o vetor 'v' usando a notação de range:
+  v = [(i,i=1,10)] ! não esqueça de declarar 'i'
   print *, "Vetor v:",v
   ! Vamos ver seus elementos pares: 
-  print *, "Elementos pares:",v(2:size(v):2)
+  print *, "Elementos pares:", v(2:size(v):2)
   ! Incrivel!
   ! v = [1,2,3,4,5,6,7,8,9,10] 
-  
+
   ! Vamos mudar os elementos 8,9 e 10 de uma única vez para 
   ! -1, -2, -3, respectivamente:
   v([8,9,10]) = [-1,-2,-3]
