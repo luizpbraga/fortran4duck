@@ -4,11 +4,12 @@ program main
   implicit none
 
   integer i
-  ! A declaração é idêntica a decuma variável escalar, mas com um pequeno detalhe ...
+  ! A declaração de uma variável escalar e a de um vetor é quase idêntica, porém
+  ! com uma pequena defirença ...
   integer :: v(10)
   integer :: vi(3) = 1
   !               |
-  !               +--> Pequeno detalhe
+  !               +--> Pequena diferença;
   ! Aqui foi declarado um vetor inteiro de 3 dimensões: vi = [1,1,1]
   ! e outro de 10: v = [?,?,?,?,?,?,?,?,?,?]
   ! Note que Fortran vetoriza as expressões pra você
