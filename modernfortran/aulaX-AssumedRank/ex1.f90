@@ -43,9 +43,7 @@ program main
         foo = 1
       rank(2)
         foo = 2
-      rank(*)
-    ! assumed rank
-        foo = 0
+      rank(*)! assumed size: Coarrays 
       rank default
         foo = rank(x)
   end select  

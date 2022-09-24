@@ -2,7 +2,7 @@ program main
   implicit none (type, external)
   
   !! INTERFACE BLOCK:: SEMPRE USAR PRA SUBPROGRAMAS EXTERNOS
-  !! e func/sub tem array com (:,...)
+  !! e func/sub que tem array com (:,..) shapes
   interface 
     subroutine alloc_fn(arr, n)
       integer, allocatable, intent(out):: arr(:)
@@ -31,9 +31,9 @@ contains
   subroutine name
     print *, "In", arr
   end subroutine name
-      print *, "In", arr
-  end program main 
-  
+end program main 
+ 
+! MUNDO EXTERNO 
 subroutine alloc_fn(arr, n)
   integer, allocatable, intent(out):: arr(:)
   integer, intent(in):: n 
@@ -47,5 +47,5 @@ end
 subroutine defarr(a)
     integer, dimension(:):: a 
     a = 0
-  end
+end
 

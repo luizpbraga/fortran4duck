@@ -17,7 +17,7 @@ const Tri_re = struct {
 };
 // vc pode implementar uma interface usando union(enum) or vTables... Eu nao vou fazer isso ai não!
 fn printArea(t: anytype) !void {
-    // run-time polymorphism, baby
+    //Dynamic dispatch ?
     return if (@hasDecl(@TypeOf(t), "area")) {
         std.debug.print("{d}\n", .{t.area()});
     } else error.NotDeclArea;

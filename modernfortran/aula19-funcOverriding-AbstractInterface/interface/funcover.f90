@@ -7,10 +7,12 @@ program main
     !interface operator(.NAN.)
     !end interface 
 
+    ! Overriding da função sin 
     interface sin 
         procedure:: sin_char
     end interface 
 
+    ! Função genérica add 
     interface add
         !procedure add_i, add_t 
         function add_i(x, y) result(res)
@@ -45,4 +47,3 @@ function add_r(x, y) result(res)
     real:: res
     res = x+y
 end function 
-

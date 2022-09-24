@@ -7,6 +7,7 @@ program main
     real:: r 
   endtype 
 
+
   interface 
     function foo(x)
       import number 

@@ -1,4 +1,5 @@
 !>
+! funcao para comparar ranks
 module mod 
   implicit none 
   contains 
