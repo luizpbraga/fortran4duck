@@ -3,7 +3,7 @@
 ---
 ### Sobre o canal
 - Por que uma playlist de $Fortran$?
-  - `Fortran IS ALIVE`! Legacy Code é um saco e nós, simpatizantes com a linguagem, temos o dever de renovar/modernizar nossos códigos. Meu objetivo aqui é construir um mundo SEM `GOTO`.
+  - `Fortran IS ALIVE`! Legacy Code é um saco e nós, simpatizantes da linguagem, temos o dever de renovar/modernizar nossos códigos. Meu objetivo aqui é construir um mundo SEM `GOTO`.
 - Por que **Fortran4duck**? 
   - Eu achei que $Fortran4fuc*$ seria melhor, porém arriscado. 
 - O que esperar dos vídeos?
@@ -91,7 +91,7 @@ Contribuições são bem-vindas! Use os comentários do Youtube ou o Github pra 
   * [ ] Explorando a STDLIB 
 
 - **Pointers**  
-  * [ ] Declaração e uso Básico: C vs Fortran
+  * [X] Declaração e uso Super Básico ([Link](https://www.youtube.com/channel/UC-GMqNv9hOigim0wiQrhvqg))
   * [ ] Procedures Pointers e Derived Types (OOP)
 
 - **Números Complexos** 
