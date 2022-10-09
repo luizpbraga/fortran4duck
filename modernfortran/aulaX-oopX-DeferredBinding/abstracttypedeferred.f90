@@ -9,6 +9,7 @@ module mod
         procedure(absproc), deferred:: d   ! comptime
         procedure:: f
         procedure(foo_int), deferred:: foo
+        generic :: operator(+) => foo
     endtype 
     
     abstract interface 
@@ -97,7 +98,7 @@ program main
     call A%p
     call A%f
     call A%d
-    write(*,*) "Foo", A%foo(1)
+    write(*,*) "Foo", A%foo(1), A + 1
     print*, "--------------" 
     call B%p
     call B%newp(7)

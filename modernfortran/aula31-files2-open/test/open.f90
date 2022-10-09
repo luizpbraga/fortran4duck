@@ -22,7 +22,7 @@ program main
     'replace'
   !'new'     ! O arquivo nao deve existir
   !'old'     ! O arquivo já existe 
-  !'sratch'  ! deleta => open(status=elete') + nao precisa do `FILE`
+  !'scratch'  ! deleta => open(status=elete') + nao precisa do `FILE`
   !'unknown' ! ?  
 
   f_action = &
