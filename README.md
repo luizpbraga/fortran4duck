@@ -1,5 +1,5 @@
 # Fortran4duck 🦆🇧🇷
-![](https://github.com/luizpbraga/fortran4duck/blob/main/modernfortran/fortran4duck.jpg)
+![](https://github.com/luizpbraga/fortran4duck/blob/main/modernfortran/fortran4duck-new.png)
 ---
 ### Sobre o canal
 - Por que uma playlist de $Fortran$?
@@ -56,8 +56,13 @@ Contribuições são bem-vindas! Use os comentários do Youtube ou o Github pra 
 >   * [ ] Declaração e uso
 >
 >- **Data**
+>   * [ ] Declaração e uso
 >
 >- **Enumerator** (ISO 202X)
+>
+>- **Exemplos**
+>   * [X] Gnuplot + Fortran ([Link](https://www.youtube.com/watch?v=Dq4SHpffNUo))
+>   * [X] OOP + funções quadráticas ([Link](https://www.youtube.com/watch?v=Dq4SHpffNUo))
 >
 >- **Controw Flow**
 >    * [x] Loop `DO` ([Link](https://www.youtube.com/watch?v=DA2x4Sygnuw&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=8&ab_channel=Fortran4duck))
@@ -88,7 +93,7 @@ Contribuições são bem-vindas! Use os comentários do Youtube ou o Github pra 
 >   * [x] Arrays e Strings Dinâmicas ([Link](https://www.youtube.com/watch?v=Ld0rbmurxjY&list=PLMeH-L7tg--AjhwZXjxtOG4lBCoE8Lt5S&index=15&ab_channel=Fortran4duck))
 >   * [X] Dynamic Memory Management ([Link](https://www.youtube.com/watch?v=pJlgJaKbcaI&t=109s))
 >   * [X] Pointers: declaração e uso Super Básico ([Link](https://www.youtube.com/channel/UC-GMqNv9hOigim0wiQrhvqg))
->   * [ ] Procedures and Pointers e Derived Types (OOP)
+>   * [ ] Procedures Pointers e Derived Types (OOP)
 >
 >  
 >- **Programação Orientada a Objetos e Módulos (OOP)**
