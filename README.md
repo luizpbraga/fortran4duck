@@ -3,7 +3,7 @@
 
 <div align="center"> <p>
   <p align="center">
-    <a href="https://youtube.com/@frotran4duck">
+    <a href="https://youtube.com/@fortran4duck">
        <img alt="Link do Canal" src="https://github.com/luizpbraga/fortran4duck/modernfortran/yt.png" />
     </a>
   </p>
