@@ -3,8 +3,8 @@
 
 <div align="center"> <p>
   <p align="center">
-    <a href="https://github.com/luizpbraga/fortran4duck/modernfortran/yt.png">
-      <img alt="Link do Canal" src="https://yputube.com/@fortran4duck" />
+    <a href="https://youtube.com/@frotran4duck">
+       <img alt="Link do Canal" src="https://github.com/luizpbraga/fortran4duck/modernfortran/yt.png" />
     </a>
   </p>
 ---
