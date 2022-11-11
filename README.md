@@ -1,13 +1,11 @@
 # Fortran4duck 🦆🇧🇷
 ![](https://github.com/luizpbraga/fortran4duck/blob/main/modernfortran/fortran4duck-new.png)
 
-<div align="center"><p>
+<div align="center"> <p>
+  <p align="center">
     <a href="https://github.com/luizpbraga/fortran4duck/modernfortran/yt.png">
       <img alt="Link do Canal" src="https://yputube.com/@fortran4duck" />
     </a>
-
-  <p align="center">
-    <img src="https://stars.medv.io/LunarVim/LunarVim.svg", title="commits"/>
   </p>
 ---
 
