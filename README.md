@@ -1,13 +1,23 @@
 # Fortran4duck 🦆🇧🇷
 ![](https://github.com/luizpbraga/fortran4duck/blob/main/modernfortran/fortran4duck-new.png)
+
+<div align="center"><p>
+    <a href="https://github.com/luizpbraga/fortran4duck/modernfortran/yt.png">
+      <img alt="Link do Canal" src="https://yputube.com/@fortran4duck" />
+    </a>
+
+  <p align="center">
+    <img src="https://stars.medv.io/LunarVim/LunarVim.svg", title="commits"/>
+  </p>
 ---
+
 ### Sobre o canal
 - Por que uma playlist de $Fortran$?
   - `Fortran IS ALIVE`! Legacy Code é um saco e nós, simpatizantes da linguagem, temos o dever de renovar/modernizar nossos códigos. Meu objetivo aqui é construir um mundo SEM `GOTO`.
 - Por que **Fortran4duck**? 
   - Eu achei que $Fortran4fuc*$ seria melhor, porém arriscado. 
 - O que esperar dos vídeos?
-  - Nos vídeos temos exemplos bobos e nada poéticos. Eu fujo do falso formalismo acadêmico: Vai ter $meme$, vai ter piada $ruim$ e vai ter $Fortran$. 
+  - Nos vídeos temos exemplos bobos e nada poéticos. Temos $meme$ e piadas $ruins$.  
 > "Panela velha é que faz comida boa" - Usuários de Fortran.
 
 ### Neste repositório...
